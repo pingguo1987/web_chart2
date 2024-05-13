@@ -9,4 +9,4 @@ fileType
 pyautogui
 opencv-python
 retry
-openpyxl=3.1.2
+openpyxl==3.1.2
