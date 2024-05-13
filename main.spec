@@ -1,3 +1,6 @@
+# -*- mode: python ; coding: utf-8 -*-
+
+
 a = Analysis(
     ['main.py'],
     pathex=[],
@@ -37,7 +40,3 @@ coll = COLLECT(
     upx_exclude=[],
     name='wechat_moments',
 )
-
-# 将资源文件夹拷贝出来
-import shutil
-shutil.copytree('resource', f'{DISTPATH}/wechat_moments/resource')
